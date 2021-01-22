@@ -5,7 +5,7 @@
 #define BYOND_FUNC __attribute__((visibility("default"))) const char*
 #endif
 
-#include <mysql/mysql.h>
+#include <mysql.h>
 
 #include <atomic>
 #include <chrono>
